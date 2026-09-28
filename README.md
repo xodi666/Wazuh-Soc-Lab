@@ -170,7 +170,7 @@
 
 ##### 
 
-##### 📁 Repository Structure
+##### **📁 Repository Structure**
 
 ##### 
 
@@ -191,4 +191,22 @@
 ##### 
 
 ##### &#x20;   screenshots/: High-resolution proof-of-concept screenshots.
+
+
+
+##### **## 🧠 Key Takeaways \& Troubleshooting**
+
+##### \- \*\*Rule Tuning:\*\* Initial testing with `wazuh-logtest` required fine-tuning the timeframe window (`120s`) to prevent false positives from legitimate multi-user SSH attempts.
+
+##### \- \*\*Active Response Testing:\*\* Confirmed automated firewall drop execution by monitoring active connection drops on the attacker VM during simulated brute-force runs.
+
+##### 
+
+##### **## 📌 Project Overview**
+
+##### I built this hands-on SIEM lab to gain practical experience in detection engineering, threat hunting, and automated incident response using \*\*Wazuh\*\*. 
+
+##### 
+
+##### Throughout this project, I deployed a centralized manager, enrolled Windows and Linux endpoints, wrote custom XML detection rules, mapped alerts to the MITRE ATT\&CK framework, and verified automated firewall responses against simulated attacks.
 
