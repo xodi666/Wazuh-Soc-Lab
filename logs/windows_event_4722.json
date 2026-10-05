@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-28T13:03:30.205+0000",
+  "agent": {
+    "id": "001",
+    "name": "MYDFIR-WINDOWS",
+    "ip": "192.168.20.133"
+  },
+  "data": {
+    "win": {
+      "system": {
+        "eventId": "4722",
+        "channel": "Security",
+        "message": "A user account was enabled."
+      },
+      "eventdata": {
+        "targetUserName": "Guest",
+        "subjectUserName": "bob"
+      }
+    }
+  },
+  "rule": {
+    "id": "100200",
+    "level": 12,
+    "description": "MYDFIR Windows Security: Built-in Guest account was enabled"
+  }
+}
